@@ -1,0 +1,145 @@
+.about_area {
+  background: linear-gradient(45deg, #0f0826, #160f2f);
+}
+
+.about_img img {
+  width: 100%;
+  height: 500px;
+}
+
+.heading h2 {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.heading span {
+  display: inline-block;
+  font-size: 80px;
+  color: crimson;
+  letter-spacing: -8px;
+}
+
+.abut_contant p {
+  font-size: 16px;
+  color: #8f8686;
+  font-weight: 500;
+}
+
+.about_info h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.about_info {
+  margin-top: 22px;
+}
+
+.about_list {
+  display: flex;
+  margin-top: 10px;
+}
+
+.about_list span {
+  padding: 8px 0;
+  border-bottom: 1px dashed #8f8686;
+  font-size: 16px;
+}
+
+span.perName2 {
+  padding-left: 8px;
+}
+.about_button {
+  margin-top: 22px;
+}
+button.btn:before {
+  content: "";
+  position: absolute;
+  border: none;
+  background: crimson;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+  transform: scaleX(1);
+  transform-origin: 50%;
+  transition: 0.3s ease-in-out;
+  z-index: -1;
+}
+button.btn:hover:before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+button.btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+img.shape {
+  width: initial;
+  height: initial;
+  position: absolute;
+}
+img.shape.javascript {
+  left: -15px;
+  top: 1px;
+  animation: shape1 5s linear infinite;
+}
+
+img.shape.react {
+  bottom: -16px;
+  animation: shape2 3s linear infinite;
+  right: -14px;
+}
+@keyframes shape1 {
+  0% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes shape2 {
+  0% {
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* up_to_top */
+a.bottom_to_top {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: crimson;
+  position: fixed;
+  bottom: 4%;
+  right: 2%;
+  border-radius: 50%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  z-index: 100;
+  transition: all 0.5s ease;
+}
+.bottom_to_top.active {
+  display: flex;
+}
+/* RESPONSIVE */
+@media only screen and (max-width: 1024px) {
+  .about_list span {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .row {
+    justify-content: center;
+  }
+}

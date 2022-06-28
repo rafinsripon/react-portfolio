@@ -1,0 +1,83 @@
+.contact_area {
+  background: linear-gradient(45deg, #0f0826, #160f2f);
+}
+
+.contact_text h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.contact_text p {
+  font-size: 16px;
+  margin: 14px 0;
+}
+
+.contact_text p span {
+  display: inline-block;
+  font-size: 17px;
+  color: crimson;
+  font-weight: 600;
+}
+.contact_text h2 {
+  font-size: 34px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.contact_text p {
+  font-size: 16px;
+  margin: 14px 0;
+}
+
+.contact_text p span {
+  display: inline-block;
+  font-size: 17px;
+  color: crimson;
+  font-weight: 600;
+}
+
+.input_box input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  font-size: 16px;
+  border: 2px solid rgb(76 30 151 / 32%);
+  border-radius: 4px;
+  margin: 20px 0;
+  outline: none;
+  background: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.input_box textarea {
+  width: 100%;
+  height: 170px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background: none;
+  outline: none;
+  border: 2px solid rgb(76 30 151 / 32%);
+  border-radius: 5px;
+  color: #fff;
+}
+.contact_img img {
+  max-width: 600px;
+  height: 600px;
+  width: 100%;
+  position: relative;
+  animation: contact 4s linear infinite;
+}
+@keyframes contact {
+  0% {
+    transform: translateX(-60px);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  100% {
+    transform: translateX(-60px);
+  }
+}

@@ -1,0 +1,27 @@
+.footer_area {
+  background: linear-gradient(45deg, #0f0826, #160f2f);
+  padding: 12px 0;
+}
+.footer_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer_img img {
+  cursor: pointer;
+}
+span.copyright {
+  font-size: 16px;
+  opacity: 0.75;
+}
+
+@media only screen and (max-width: 425px) {
+  .footer_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+  }
+}
