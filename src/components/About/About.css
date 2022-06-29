@@ -90,6 +90,7 @@ img.shape.react {
   animation: shape2 3s linear infinite;
   right: -14px;
 }
+
 @keyframes shape1 {
   0% {
     transform: rotate(360deg);
@@ -113,6 +114,9 @@ img.shape.react {
   }
 }
 /* up_to_top */
+a.bottom_to_top{
+  display: none;
+}
 a.bottom_to_top {
   width: 50px;
   height: 50px;
@@ -129,9 +133,9 @@ a.bottom_to_top {
   z-index: 100;
   transition: all 0.5s ease;
 }
-.bottom_to_top.active {
+/* .bottom_to_top.active {
   display: flex;
-}
+} */
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
   .about_list span {
@@ -143,3 +147,4 @@ a.bottom_to_top {
     justify-content: center;
   }
 }
+
