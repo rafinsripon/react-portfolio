@@ -66,7 +66,7 @@ function About() {
                     </div>
                 </div>
             </div>
-            {/* up_to_btn https: */}
+            {/* up_to_btn */}
             <div className="up_to_top">
                 <a href="!#" className='bottom_to_top'>
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-up white" viewBox="0 0 16 16">
