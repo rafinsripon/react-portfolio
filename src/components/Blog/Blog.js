@@ -34,7 +34,7 @@ function Blog() {
                             </div>
                             <div className="project_effect"></div>
                             <div className="blog_text text align_items_center">
-                                <h5>development</h5>
+                                <h5>designs</h5>
                                 <h4>Getting tickets to the big show</h4>
                                 <button className='blog btn pointer'>view details</button>
                             </div>
